@@ -1,9 +1,9 @@
 import * as THREE from 'three';
-import { physicsManager } from './game/PhysicsManager.js';
-import { inputManager } from './game/InputManager.js';
-import { uiManager } from './game/UIManager.js';
-import { WorldGenerator } from './game/WorldGenerator.js';
-import { PlayerController } from './game/PlayerController.js';
+import { physicsManager } from './src/game/PhysicsManager.js';
+import { inputManager } from './src/game/InputManager.js';
+import { uiManager } from './src/game/UIManager.js';
+import { WorldGenerator } from './src/game/WorldGenerator.js';
+import { PlayerController } from './src/game/PlayerController.js';
 
 // --- Configuration ---
 const WORLD_SIZE = 100;
