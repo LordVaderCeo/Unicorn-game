@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    overflow: hidden; /* Hide scrollbars */
+    background-color: #87CEEB; /* Sky blue background */
+}
+
+#game-canvas {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+}
+
+#ui-container {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px black;
+    z-index: 10;
+    pointer-events: none; /* Allow clicks to go through to the canvas */
+}
+
+#ui-container div {
+    margin-bottom: 5px;
+}
+
+#message-area {
+    font-style: italic;
+    font-size: 18px;
+    min-height: 25px; /* Prevent layout shift when empty */
+}
